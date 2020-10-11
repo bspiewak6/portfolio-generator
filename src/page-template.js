@@ -56,7 +56,7 @@ const generateProjects = projectsArr => {
   `;
 };
 
-const generatePage = module.exports = templateData => {
+module.exports = templateData => {
     // destructure page data by section
     const { projects, about, ...header } = templateData;
 
@@ -95,4 +95,4 @@ const generatePage = module.exports = templateData => {
     `;
 };
 
-module.exports = generatePage;
+// module.exports = generatePage;

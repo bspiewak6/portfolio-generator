@@ -37,8 +37,3 @@ const copyFile = copyContent => {
 
 // use ES6 to simplify the code from below
 module.exports = {writeFile, copyFile};
-
-// module.exports = {
-//     writeFile: writeFile,
-//     copyFile: copyFile
-// };

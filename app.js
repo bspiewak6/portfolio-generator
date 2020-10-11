@@ -1,4 +1,4 @@
-// const fs = require('fs');
+const fs = require('fs');
 const { writeFile, copyFile } = require('./utils/generate-site');
 const generatePage = require('./src/page-template');
 const inquirer = require('inquirer');
